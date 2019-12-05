@@ -17,7 +17,7 @@ TYPOGRAPHY
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   color: #596a88;
   padding-top: 60px;
 }
@@ -139,19 +139,39 @@ Jumbo */
   padding: 48px 0;
 }
 
+.jumbo-text {
+  color: #fff;
+}
+
 .jumbo h1 {
   font-size: 3.9em;
   font-weight: 700;
 }
 
-.jumbo-text {
-  color: #fff;
+@media screen and (max-width: 1024px) {
+  .jumbo h1 {
+    font-size: 3.1em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .jumbo h1 {
+    font-size: 2.3em;
+  }
+}
+
+.jumbo-text p {
+  color: rgba(255,255,255,.8);
 }
 
 .jumbo-form {
   background: #fff;
   border-radius: 6px;
   padding: 16px;
+}
+
+.jumbo-form h3 {
+  color: #000;
 }
 
 .jumbo-form form input {
