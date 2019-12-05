@@ -4,7 +4,9 @@ GENERAL
 ==================================================
 ////////////////////////////////////////////////// */
 
-
+.txt-blue {
+  color: #0069ff;
+}
 
 /* //////////////////////////////////////////////////
 ==================================================
@@ -16,7 +18,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  color: #031b4e;
+  color: #596a88;
   padding-top: 60px;
 }
 
@@ -29,6 +31,11 @@ h4 { font-size: 1.563em; line-height: 1.1em; margin-bottom: 16px; }
 h5 { font-size: 1.25em; line-height: 1.1em; margin-bottom: 16px; }
 h6 { font-size: 1em; line-height: 1.1em; margin-bottom: 16px; }
 
+/* --------------------------------------------------
+Links */
+
+a, a:link, a:visited { color: #0069ff; text-decoration: none; }
+
 /* //////////////////////////////////////////////////
 ==================================================
 BUTTONS
@@ -38,6 +45,8 @@ BUTTONS
 .lf_btn {
   padding: 8px 12px;
   border-radius: 4px;
+  border: 1px solid #e5e8ed;
+  display: inline-block;
 }
 
 .lf_btn-blue-outline {
@@ -94,6 +103,12 @@ Navbar */
   margin-left: 16px;
 }
 
+.menu-inline li a:link,
+.menu-inline li a:active,
+.menu-inline li a:visited {
+  color: #596a88;
+}
+
 .menu-inline li a:hover {
   color: #0069ff;
 }
@@ -115,6 +130,79 @@ a.dropdown:after {
   .icon-hamburger .fas {
     color: #0069ff;
   }
+
+/* --------------------------------------------------
+Jumbo */
+
+.jumbo {
+  background: #0069ff;
+  padding: 48px 0;
+}
+
+.jumbo h1 {
+  font-size: 3.9em;
+  font-weight: 700;
+}
+
+.jumbo-text {
+  color: #fff;
+}
+
+.jumbo-form {
+  background: #fff;
+  border-radius: 6px;
+  padding: 16px;
+}
+
+.jumbo-form form input {
+  display: block;
+  border: 1px solid #e5e8ed;
+  padding: 8px;
+  margin-bottom: 12px;
+  width: 100%;
+  border-radius: 4px;
+}
+
+.jumbo-form form input[type="submit"] {
+  background: #0069ff;
+  border: none;
+  color: #fff;
+  text-align: center;
+}
+
+.jumbo-form .btn-google {
+  width: 100%;
+  box-shadow: 1px 1px 1px #e5e8ed;
+  text-align: center;
+  position: relative;
+}
+
+.jumbo-form a.btn-google{
+  color: #596a88;
+}
+
+.jumbo-form .btn-google:before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(../img/google-icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+}
+
+.jumbo-form form p.note {
+  margin-top: 12px;
+  font-size: 0.8em;
+}
+
+.jumbo-form form .note a {
+  text-decoration: underline;
+}
 
 /* //////////////////////////////////////////////////
 ==================================================
