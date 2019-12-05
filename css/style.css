@@ -17,6 +17,7 @@ body {
   font-size: 16px;
   font-weight: 300;
   color: #031b4e;
+  padding-top: 60px;
 }
 
 h1,h2,h3,h4,h5,h6 { font-weight: 400;}
@@ -27,6 +28,22 @@ h3 { font-size: 1.953em; line-height: 1.1em; margin-bottom: 16px; }
 h4 { font-size: 1.563em; line-height: 1.1em; margin-bottom: 16px; }
 h5 { font-size: 1.25em; line-height: 1.1em; margin-bottom: 16px; }
 h6 { font-size: 1em; line-height: 1.1em; margin-bottom: 16px; }
+
+/* //////////////////////////////////////////////////
+==================================================
+BUTTONS
+==================================================
+////////////////////////////////////////////////// */
+
+.lf_btn {
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.lf_btn-blue-outline {
+  color: #0069ff!important;
+  border: 1px solid #0069ff
+}
 
 /* //////////////////////////////////////////////////
 ==================================================
@@ -54,8 +71,17 @@ img.logo {
 /* --------------------------------------------------
 Navbar */
 
+.header-top .nav-left {
+  float: left;
+}
+
+.header-top .nav-right {
+  float: right;
+}
+
 .menu-inline {
   margin: 0;
+  display: inline-block;
 }
 
 .menu-inline li {
@@ -64,7 +90,7 @@ Navbar */
 }
 
 .menu-inline li:not(:first-child) a {
-  display: inline-block;
+  display: inline;
   margin-left: 16px;
 }
 
@@ -78,6 +104,16 @@ a.dropdown:after {
   font-weight: 600;
   font-size: 11px;
   vertical-align: top;
+  }
+
+  .ico-hamburger {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+  }
+
+  .icon-hamburger .fas {
+    color: #0069ff;
   }
 
 /* //////////////////////////////////////////////////
