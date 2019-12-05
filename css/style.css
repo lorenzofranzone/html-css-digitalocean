@@ -35,7 +35,50 @@ HEADER
 ////////////////////////////////////////////////// */
 
 /* --------------------------------------------------
+Header Top */
+
+.header-top {
+  background: #fff;
+  line-height: 60px;
+  font-weight: 400;
+}
+
+/* --------------------------------------------------
+Logo */
+
+img.logo {
+  max-width: 200px;
+  vertical-align: -10px;
+}
+
+/* --------------------------------------------------
 Navbar */
+
+.menu-inline {
+  margin: 0;
+}
+
+.menu-inline li {
+  list-style: none;
+  display: inline;
+}
+
+.menu-inline li:not(:first-child) a {
+  display: inline-block;
+  margin-left: 16px;
+}
+
+.menu-inline li a:hover {
+  color: #0069ff;
+}
+
+a.dropdown:after {
+  content: ' \f078';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 600;
+  font-size: 11px;
+  vertical-align: top;
+  }
 
 /* //////////////////////////////////////////////////
 ==================================================
