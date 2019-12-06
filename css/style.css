@@ -18,7 +18,7 @@ GENERAL
 
 .p-s { padding: 64px 0; }
 .p-l { padding: 120px 0; }
-.p-ls { padding: 120px 64px; }
+.p-ls { padding: 120px 0 64px; }
 
 /* //////////////////////////////////////////////////
 ==================================================
@@ -34,19 +34,19 @@ body {
   padding-top: 60px;
 }
 
-h1,h2,h3,h4,h5,h6 { font-weight: 400;}
+h1,h2,h3,h4,h5,h6 { font-weight: 500;}
 
 h1 { font-size: 3.052em; line-height: 1.1em; margin-bottom: 16px; }
-h2 { font-size: 2.441em; line-height: 1.1em; margin-bottom: 16px; }
-h3 { font-size: 1.953em; line-height: 1.1em; margin-bottom: 16px; }
-h4 { font-size: 1.563em; line-height: 1.1em; margin-bottom: 16px; }
-h5 { font-size: 1.25em; line-height: 1.1em; margin-bottom: 16px; }
-h6 { font-size: 1em; line-height: 1.1em; margin-bottom: 16px; }
+h2 { font-size: 2.441em; line-height: 1.1em; margin-bottom: 16px; color: #031b4e; }
+h3 { font-size: 1.953em; line-height: 1.1em; margin-bottom: 16px; color: #031b4e; }
+h4 { font-size: 1.563em; line-height: 1.1em; margin-bottom: 16px; color: #031b4e; }
+h5 { font-size: 1.25em; line-height: 1.1em; margin-bottom: 16px; color: #031b4e; }
+h6 { font-size: 1em; line-height: 1.1em; margin-bottom: 16px; color: #031b4e; }
 
 /* --------------------------------------------------
 Links */
 
-a, a:link, a:visited { color: #0069ff; text-decoration: none; }
+a, a:link, a:visited, main a:hover { color: #0069ff; text-decoration: none; }
 
 main a:after {
   content: '\f054';
@@ -135,7 +135,7 @@ Navbar */
 }
 
 a.dropdown:after {
-  content: ' \f078';
+  content: '\f078';
   font-family: 'Font Awesome 5 Free';
   font-weight: 600;
   font-size: 11px;
@@ -259,6 +259,7 @@ Customers */
   text-transform: uppercase;
   letter-spacing: .05em;
   font-weight: 700;
+  color: #596a88;
 }
 
 .cust-logos {
@@ -284,6 +285,73 @@ Customers */
       margin-right: 0;
     }
   }
+
+/* --------------------------------------------------
+Customers */
+
+.service {
+  max-width: calc(50% - 24px);
+  float: left;
+  margin-right: 24px;
+}
+
+.service:nth-child(even) {
+  margin-right: 0;
+}
+
+.services .container > p:first-of-type {
+  margin-bottom: 64px!important;
+}
+
+.service {
+  margin-bottom: 16px;
+}
+
+.service h3 {
+  font-size: 18px;
+  margin: 8px 0 16px;
+}
+
+.service .ser-icon img {
+  width: 41px;
+}
+
+  @media screen and (max-width: 768px) {
+    .service {
+      max-width: 100%;
+      float: none;
+      margin-right: 0;
+    }
+  }
+
+.ser-nav ul {
+  margin-left: 64px;
+}
+
+.ser-nav ul li {
+  list-style: none;
+}
+
+.ser-nav ul li a {
+  display: block;
+  padding: 17px 10px 17px 30px;
+  border-left: 2px solid #e5e8ed;
+  color: #596a88;
+}
+
+.ser-nav a:after {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .ser-nav {
+    margin-bottom: 32px;
+  }
+
+  .ser-nav ul {
+    margin-left: 0;
+  }
+}
 
 /* //////////////////////////////////////////////////
 ==================================================
