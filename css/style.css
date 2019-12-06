@@ -20,6 +20,11 @@ GENERAL
 .p-l { padding: 120px 0; }
 .p-ls { padding: 120px 0 64px; }
 
+main h3 {
+  font-size: 18px;
+  margin: 8px 0 16px;
+}
+
 .slide-dots span {
   width: 12px;
   height: 12px;
@@ -325,11 +330,6 @@ Customers */
   margin-bottom: 16px;
 }
 
-.service h3 {
-  font-size: 18px;
-  margin: 8px 0 16px;
-}
-
 .service .ser-icon img {
   width: 41px;
 }
@@ -415,6 +415,13 @@ Developers */
       margin-top: 64px;
     }
   }
+
+/* --------------------------------------------------
+Developers */
+
+.features .row {
+  margin-top: 48px;
+}
 
 /* //////////////////////////////////////////////////
 ==================================================
