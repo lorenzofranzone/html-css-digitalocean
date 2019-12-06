@@ -510,11 +510,77 @@ Team */
   font-size: 30px;
 }
 
-
-
-
 /* //////////////////////////////////////////////////
 ==================================================
 FOOTER
 ==================================================
 ////////////////////////////////////////////////// */
+
+footer {
+  background: #010e28;
+  color: #fff;
+}
+
+footer h4 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+footer img {
+  margin-bottom: 8px;
+}
+
+footer p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 400;
+}
+
+footer p span {
+  font-weight: 300;
+}
+
+footer a {
+  color: #fff!important;
+}
+
+footer ul.menu {
+  margin-bottom: 24px;
+}
+
+footer ul.menu li {
+  list-style: none;
+}
+
+footer ul.menu li a {
+  font-size: 14px;
+  padding: 0 0 8px 0;
+  margin-bottom: 8px;
+  display: block;
+  color: rgba(255, 255, 255, 0.5)!important;
+}
+
+footer ul.menu li a:hover {
+  color: #fff!important;
+}
+
+footer .footer-icons {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+footer .footer-icons [class*="fa"] {
+  font-size: 18px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-right: 6px;
+  display: inline-block;
+}
+
+footer .footer-icons [class*="fa"]:last-child {
+  margin-right: 0;
+}
+
+footer .row [class*="col"]:first-child {
+  margin-bottom: 32px;
+}
