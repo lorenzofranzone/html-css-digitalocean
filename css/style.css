@@ -8,6 +8,18 @@ GENERAL
   color: #0069ff;
 }
 
+.section-grey {
+  background: #f3f5f9;
+}
+
+.section-white {
+  background: #fff;
+}
+
+.p-s { padding: 64px 0; }
+.p-l { padding: 120px 0; }
+.p-ls { padding: 120px 64px; }
+
 /* //////////////////////////////////////////////////
 ==================================================
 TYPOGRAPHY
@@ -35,6 +47,15 @@ h6 { font-size: 1em; line-height: 1.1em; margin-bottom: 16px; }
 Links */
 
 a, a:link, a:visited { color: #0069ff; text-decoration: none; }
+
+main a:after {
+  content: '\f054';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 600;
+  font-size: 11px;
+  vertical-align: middle;
+  margin-left: 8px;
+}
 
 /* //////////////////////////////////////////////////
 ==================================================
@@ -148,17 +169,17 @@ Jumbo */
   font-weight: 700;
 }
 
-@media screen and (max-width: 1024px) {
-  .jumbo h1 {
-    font-size: 3.1em;
-  }
-}
+    @media screen and (max-width: 1024px) {
+      .jumbo h1 {
+        font-size: 3.1em;
+      }
+    }
 
-@media screen and (max-width: 768px) {
-  .jumbo h1 {
-    font-size: 2.3em;
-  }
-}
+    @media screen and (max-width: 768px) {
+      .jumbo h1 {
+        font-size: 2.3em;
+      }
+    }
 
 .jumbo-text p {
   color: rgba(255,255,255,.8);
@@ -229,6 +250,40 @@ Jumbo */
 MAIN
 ==================================================
 ////////////////////////////////////////////////// */
+
+/* --------------------------------------------------
+Customers */
+
+.customers h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-weight: 700;
+}
+
+.cust-logos {
+  line-height: 80px;
+}
+
+.cust-logos img {
+  width: calc(16.67% - 14px);
+  margin-right: 12px;
+}
+
+.cust-logos img:last-child {
+  margin-right: 0;
+}
+
+  @media screen and (max-width: 768px) {
+    .cust-logos img {
+      width: calc(50% - 12px);
+      margin-right: 12px;
+    }
+
+    .cust-logos img:nth-child(even) {
+      margin-right: 0;
+    }
+  }
 
 /* //////////////////////////////////////////////////
 ==================================================
