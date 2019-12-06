@@ -16,6 +16,11 @@ GENERAL
   background: #fff;
 }
 
+.section-blue {
+  background-image: linear-gradient(#2228b8, #1f009c);
+  color: #fff;
+}
+
 .p-s { padding: 64px 0; }
 .p-l { padding: 120px 0; }
 .p-ls { padding: 120px 0 64px; }
@@ -179,7 +184,9 @@ a.dropdown:after {
 Jumbo */
 
 .jumbo {
-  background: #0069ff;
+  background: #0069ff url("../img/bg-home.jpg");
+  background-size: cover;
+  background-position: center;
   padding: 48px 0;
 }
 
@@ -422,6 +429,56 @@ Developers */
 .features .row {
   margin-top: 48px;
 }
+
+/* --------------------------------------------------
+Service Customers */
+
+.service-customers h2 {
+  color: #fff;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.service-customers table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.service-customers table tr > td {
+  padding: 11px 10px 10px;
+}
+
+.service-customers table tr td:first-child {
+  width: 15%;
+  font-weight: 700;
+}
+
+.service-customers table tr td:nth-child(2) {
+  width: 60%;
+  font-weight: 300;
+}
+
+.service-customers table tr td:last-child {
+  width: 25%;
+  text-align: right;
+  font-weight: 300;
+}
+
+.service-customers table tr:not(:last-child) {
+  border-bottom: 1px solid #fff;
+}
+
+.service-customers table a {
+  color: #00d7d2;
+}
+
+.service-customers table a:hover {
+  color: #0069ff;
+}
+
 
 /* //////////////////////////////////////////////////
 ==================================================
