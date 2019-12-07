@@ -173,7 +173,7 @@ Navbar */
 }
 
 a.dropdown:after {
-  content: '\f078';
+  content: ' \f078';
   font-family: 'Font Awesome 5 Free';
   font-weight: 600;
   font-size: 11px;
