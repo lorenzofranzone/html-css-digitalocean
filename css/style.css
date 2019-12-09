@@ -519,6 +519,7 @@ FOOTER
 footer {
   background: #010e28;
   color: #fff;
+  position: relative;
 }
 
 footer h4 {
@@ -583,4 +584,94 @@ footer .footer-icons [class*="fa"]:last-child {
 
 footer .row [class*="col"]:first-child {
   margin-bottom: 32px;
+}
+
+footer .help {
+  position: fixed;
+  width: 300px;
+  color: #000;
+  vertical-align: middle;
+  bottom: 32px;
+  right: 32px;
+}
+
+  @media screen and (max-width: 1024px) {
+    footer .help {
+      left: 100px;
+    }
+  }
+
+footer .help-cloud {
+  padding: 12px;
+  width: 300px;
+  background: #fff;
+  border-radius: 6px;
+  display: inline-block;
+  position: relative;
+  right: 75px;
+  position: relative;
+  box-shadow: 2px 2px 1px #ccc;
+}
+
+footer .help-cloud:after {
+  content: '\f0da';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 800;
+  font-size: 32px;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: -10px;
+  text-shadow: 2px 2px 1px #ccc;
+}
+
+footer .help-cloud p {
+  color: #000;
+  margin: 0;
+}
+
+footer .help .help-icon {
+  width: 56px;
+  height: 56px;
+  background: #0069ff;
+  border-radius: 6px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+footer .help .help-icon img {
+  width: 55px;
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+footer .help .help-icon .help-counter {
+  position: absolute;
+  top: 0;
+  right: -10px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  border-radius: 50%;
+  background: red;
+  border: 3px solid #fff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+footer .help .help-icon .help-counter p {
+  color: #fff;
+  font-weight: 500;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
